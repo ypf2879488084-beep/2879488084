@@ -1,0 +1,29 @@
+--- Spell object properties.
+---@class spell.obj
+---@field public identifier number
+---@field public slot number
+---@field public isBasicAttack boolean
+---@field public owner base.obj
+---@field public target base.obj
+---@field public startPos vec3
+---@field public startPos2D vec2
+---@field public endPos vec3
+---@field public endPos2D vec2
+---@field public endPosLine vec3
+---@field public endPosLine2D vec2
+---@field public useChargeChanneling boolean
+---@field public channelingFinished boolean
+---@field public spellCasted boolean
+---@field public windUpTime number
+---@field public animationTime number
+---@field public clientWindUpTime number
+---@field public startTime number
+---@field public castEndTime number
+---@field public endTime number
+---@field public spell_info spell_info.obj
+---@field public name string
+---@field public hash number
+---@field public static spell_static.obj
+
+---@type spell.obj
+_G.spell = {}
